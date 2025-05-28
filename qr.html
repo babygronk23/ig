@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scan My QR</title>
+  <style>
+    /* QR should not be blue */
+
+    body {
+      background-color: #ffe6f0;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #cc0066;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .qr-img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      text-decoration: none;
+      background-color: #cc0066;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      transition: background-color 0.3s;
+    }
+
+    a.back-link:hover {
+      background-color: #a60052;
+    }
+  </style>
+</head>
+<body>
+  <h1>QR </h1>
+
+  <img src="images/qr.jpg" alt="QR Code" class="qr-img" />
+  <br />
+  <a href="index.html" class="back-link">← Back to Home</a>
+</body>
+</html>
